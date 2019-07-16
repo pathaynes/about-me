@@ -14,8 +14,6 @@ quizButton.onclick = function() {
         return;
     }
 
-    const emptyString = '';
-
     let name = '';
 
     const firstName = prompt('What is your first name?');
@@ -33,7 +31,7 @@ quizButton.onclick = function() {
     if(correct) {
         response += ' and you are right! He is the coolest dude around!';
     }
-    else{
+    else {
         response += ' and you obviously do not know what cool is';
     }
     
