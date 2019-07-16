@@ -1,41 +1,44 @@
+header {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: solid;
+}
+
+.outdoors {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.paragraph-1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.favorite {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.list {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.but-who {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .profile {
-    width: 40vh;
-    float: left;
-    margin: 10%
+    width: 40%;
+    float: right;
 }
 
 body {
-    background-color:lightcoral;
-    color: rgb(83, 80, 80);
-    margin: 10px;
-    font-family: sans-serif;
+    background-color: aquamarine
 }
 
-h1 {
-    margin: 10%;
-    background-color: rgb(151, 151, 202);
-    text-align: center
-
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 200%
 }
- ul {
-     text-align: center;
-     padding-inline-start: 600px;
-
- }
-
- li {
-     text-align: center;
- }
-
- h2 {
-     text-align: center;
- }
-
- .paragraph-1 {
-     text-align: center
- }
-
- .but-who {
-     text-align: right;
-
- }
