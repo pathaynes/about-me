@@ -2,6 +2,13 @@ header {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: solid;
+    border-width: 1
+    0px;
+    padding: 40px;
+    margin-left: 400px;
+    margin-right: 400px;
+    height: 60px;
+
 }
 
 .outdoors {
@@ -10,28 +17,33 @@ header {
 }
 
 .paragraph-1 {
-    text-align: center;
+    text-align: left;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .favorite {
-    text-align: center;
+    text-align: left;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .list {
-    text-align: center;
+    text-align: left;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: outset;
+    width: 200px;
+    border-color: red;
 }
 
 .but-who {
     text-align: left;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 
 .profile {
     width: 40%;
     float: right;
+    padding: 30px
 }
 
 body {
@@ -45,11 +57,23 @@ p {
 
 ul {
     width: 300px;
-    margin-left: auto;
+    margin-left: left;
     margin-right: auto;
 
 }
 
 .tab {
     text-indent: 40pt;
+    padding: 10px
+}
+
+ol {
+    border: outset;
+    width: 200px;
+    border-color: red;
+}
+
+nav {
+    text-align: center;
+
 }
