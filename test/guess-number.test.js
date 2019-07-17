@@ -15,7 +15,7 @@ test('compare-number', (assert) => {
     assert.equal(result, expected);
 });
 
- test('compare-number', (assert) => {
+test('compare-number', (assert) => {
     // Arrange
     const guess = 10;
     const correctNumber = 32;
