@@ -7,7 +7,7 @@ function compareNumbers(guess, correctNumber){
     } else if(guess > correctNumber) {
         return 1;
 
-    } else if(guess === correctNumber) {
+    } else if(guess == correctNumber) {
         return 0;
     }
  
