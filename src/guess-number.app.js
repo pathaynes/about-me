@@ -11,7 +11,7 @@ const guessNumber = document.getElementById('guess-number');
 const resultNumber = document.getElementById('result');
 const remainingTries = document.getElementById('remaining-tries');
 const highLow = document.getElementById('high-low');
-const correctNumber = 16;
+const correctNumber = 13;
 const youFailed = document.getElementById('failure');
 
 

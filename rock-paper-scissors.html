@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>R-P-S</title>
+
+    <link rel="stylesheet" href="src/rock.paper.sicissors.css">
+
+</head>
+
+
+
+<body>
+
+        <header>
+
+            <h1>ROCK PAPER SICISSORS</h1>
+
+            <nav>
+                <a href="./">Home</a>
+
+                <a href="guess-number.html">Guess the Number</a>
+
+                <a href="rock-paper-sicissors.html">Rock Paper Sicissors</a>
+            </nav>
+
+            <p>
+                    Rules: You must pick from three options, either Rock, Paper or Sicissors
+                </p>
+    
+                <p>
+                    <ul>
+                        <li>Rock > Sicissors</li>
+                        <li>Paper > Rock</li>
+                        <li>Sicissors > Paper</li>
+
+        </header>
+       
+
+        <main>
+                
+            <h2>Choose your weapon</h2>
+
+            <p id="images"> 
+                    <label>
+                        <input type="radio" name="action" value="rock" checked>
+                        <img class="radio-image" src="assets/hands/rock.png">
+                    </label>
+
+                    <label>
+                        <input type="radio" name="action" value="paper">
+                        <img class="radio-image" src="assets/hands/paper.png">
+                     </label>
+
+                    <label>
+                        <input type="radio" name="action" value="scissors">
+                        <img class="radio-image" src="assets/hands/scissors.png">
+                    </label>
+            </p>
+
+            <p id="button">
+
+                    <button id="go">Ready, Go!</button> 
+
+            </p>
+
+            <p id="result">
+
+                    <img id="hand-image" class="invisible" src="./assets/hands/paper.png">
+                    
+
+            </p>
+
+            <p id="record">
+
+                    <span>Wins: <span class="count" id="win-count">0</span></span>
+                    <span>Losses: <span class="count" id="loss-count">0</span></span>
+            </p>
+                
+           
+        </main>
+
+        <script type="module" src="./src/rock-paper-scissors.app.js"></script>
+                
+</body>
+</html>
