@@ -15,11 +15,17 @@ input {
 #images {
     width: 600px;
     margin-left: -60px;
-    margin-top: 80px
+    margin-top: 80px;
+}
+h1 {
+    text-align: center;
+    font-size: 70pt;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 h2 {
-    margin: 90px;
+    margin: 40px;
+    font-family: sans-serif;
 }
 
 #go {
@@ -34,15 +40,18 @@ h2 {
 
 }
 input:checked + .radio-image {
-        box-shadow: 10px 30px 80px grey;
+        box-shadow: 10px 30px 100px grey;
     
     }
 
 #record {
+        font-family: sans-serif;
+        font: bold;
+        font-size: 50pt;
         display: flex;
         justify-content: space-evenly;
         width: 80%;
-        margin-top: 200px;
+        margin-top: 50px;
         margin-left: 50px;
     }
 
@@ -50,7 +59,7 @@ input:checked + .radio-image {
         box-shadow: 10px 30px 80px grey;
         border-radius: 100%;
         transition:ease-in-out;
-        width: 400px;
+        width: 250px;
 
 }
    

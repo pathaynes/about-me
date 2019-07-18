@@ -18,13 +18,11 @@ button.addEventListener('click', () => {
     const result = winLoss(userChoice, computerHand);
 
 
-
     handImage.classList.remove('invisible');
     const src = 'assets/hands/' + computerHand + '.png';
     handImage.src = src;
 
 
-        
     if(result === 'win') {
         wins++;
         winCount.textContent = wins;
