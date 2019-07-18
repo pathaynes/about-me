@@ -8,12 +8,15 @@ const lossCount = document.getElementById('loss-count');
 const handImage = document.getElementById('hand-image');
 
 
-let wins = 0
-let losses = 0
+let wins = 0;
+let losses = 0;
 
 
 button.addEventListener('click', () => {
     const computerHand = getThrow();
+    const userChoice = document.querySelector('input:checked').value;
+    const result = winLoss(userChoice, computerHand);
+
 
 
     handImage.classList.remove('invisible');
@@ -21,9 +24,6 @@ button.addEventListener('click', () => {
     handImage.src = src;
 
 
-    const userChoice = document.querySelector('input:checked').value;
-    const result = winLoss(userChoice, computerHand);
-  
         
     if(result === 'win') {
         wins++;
