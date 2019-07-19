@@ -3,7 +3,6 @@ function isYes(words) {
     if(words === 'yes') {
         return true;
     }
-
     else if(words === 'no') {
         return false;
     }
