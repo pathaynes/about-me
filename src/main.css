@@ -2,13 +2,11 @@ header {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: solid;
-    border-width: 1
-    0px;
+    border-width: 10px;
     padding: 40px;
     margin-left: 400px;
     margin-right: 400px;
     height: 60px;
-
 }
 
 .outdoors {
@@ -37,34 +35,32 @@ header {
 .but-who {
     text-align: left;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
 }
 
 .profile {
     width: 40%;
     float: right;
-    padding: 30px
+    padding: 30px;
 }
 
 body {
-    background-color: aquamarine
+    background-color: aquamarine;
 }
 
 p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 200%
+    font-size: 200%;
 }
 
 ul {
     width: 300px;
     margin-left: left;
     margin-right: auto;
-
 }
 
 .tab {
     text-indent: 40pt;
-    padding: 10px
+    padding: 10px;
 }
 
 ol {
@@ -75,5 +71,4 @@ ol {
 
 nav {
     text-align: center;
-
 }
