@@ -7,6 +7,9 @@ function isYes(words) {
     else if(words === 'no') {
         return false;
     }
+
+    else if(words === '')
+        return false;
 }
 
 export default isYes;

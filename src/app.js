@@ -1,8 +1,5 @@
-// isYes function
 import isYes from './is-yes.js';
 
-
-// Reference DOM elements
 const quizButton = document.getElementById('take-this-quiz');
 const result = document.getElementById('text-content');
 
@@ -18,12 +15,9 @@ quizButton.onclick = function() {
 
     const firstName = prompt('What is your first name?');
     name = name + firstName;
-
     const lastName = prompt('What is your last name?');
     name = name + ' ' + lastName;
-
     const isAwesome = prompt('Is Pat the coolest dude around (yes/no)?');
-    
     const correct = isYes(isAwesome);
 
     let response = 'Your name is ' + name;
