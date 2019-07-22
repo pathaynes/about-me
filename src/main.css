@@ -1,0 +1,88 @@
+h1 {
+    text-align: center;
+    font-size: 70pt;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 150px;
+    padding: 100px;
+    background-color: aquamarine;
+}
+
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 250%;
+
+}
+
+.outdoors {
+    padding-left: 390px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.paragraph-1 {
+    text-align: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.favorite {
+    text-align: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.list {
+    text-align: left;
+    font-family: sans-serif;
+    width: 200px;
+    padding-left: 475px;
+}
+
+.but-who {
+    text-align: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 355px;
+}
+
+.profile {
+    width: 40%;
+    float: right;
+    padding: 30px
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 200%;
+}
+
+ul {
+    width: 300px;
+    margin-left: left;
+    margin-right: auto;
+}
+
+.tab {
+    text-indent: 40pt;
+    padding: 10px
+}
+
+nav {
+    text-align: center;
+}
+
+#fun {
+    padding-left: 355px;
+}
+
+#facts {
+    padding-left: 435px;
+}
+
+#quiz {
+    padding-left: 465px;
+}
+
+button {
+    margin-left: 455px;
+    width: 100px;
+    height: 60px;
+    font-family: sans-serif
+}
+
