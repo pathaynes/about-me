@@ -8,23 +8,22 @@
     <link rel="stylesheet" href="./src/main.css">
 </head>
 <body>
-        <nav>
-                <a href="./">Home</a>
-                <a href="guess-number.html">Guess the Number</a>
-                <a href="rock-paper-scissors.html">Rock Paper Sicissors</a>
-          </nav>
   <header>
-      <h1>Let me explain something...</h1>
+      <nav>
+        <a href="./">Home</a>
+        <a href="guess-number.html">Guess the Number</a>
+        <a href="rock-paper-scissors.html">Rock Paper Sicissors</a>
+      </nav>
+      <h1>Pat Haynes</h1>
   </header>    
 
     <main>
       <section>
-          <h2 class="outdoors">I <em>love</em> the outdoors</h2>
           <p hidden class="paragraph-1">Ever since I was a little kid I was playing in the dirt or snow outside!</p>
       </section>
 
       <section>
-          <h2 class="favorite">Some of my favorite activies include, but are not limited to</h2>
+            <h2 class="outdoors">I <em>love</em> the outdoors</h2>
           <ul class="list">
               <li>Snowboarding</li>
               <li>Mt Biking</li>
@@ -48,23 +47,24 @@
            </p>
            <p class="tab">
                While I was in Asia I explored lots of yoga and meditation. I spent a month living
-               at an Ashram with yoga instructors from India. We only ate vegan, meditated 5-10 
+               at an Ashram with yoga instructors from India. We ate vegan everyday, meditated 5-10 
                times a day and practiced Asanas twice a day. During one of my meditation sessions
                I had a revelation that I needed to move to Portland. Little did I know that this
-               path would lead me to Alchemy Code lab.
+               would lead me to Alchemy Code lab.
            </p>
            <p class="tab">
-               I first discovered coding last year while I was in Indonesia. I met several people in
+               I first discovered coding while I was in Indonesia. I met several people in
                internet cafes who were working for American companies but living wherever they wanted.
                I knew then that this was the type of lifestyle I wanted to pursue, although at the time 
                I did not believe I was smart enough to pursue a career in coding. I spent the last year
                exploring graphic design and Photography as an option for me to become a digital nomad.
-               Luckily the skills I have learned on the Adobe suites will come in handy now that I am 
+               I ultimately decided that these skills along would not be enough and needed a skill that
+               was high in demand. Luckily the skills I have learned on the Adobe will come in handy now that I am 
                learning web and app development. I am excited to see how this course goes!
            </p>
       </section>
-            <h2>Fun Facts about me</h2>
-                <ol>
+            <h2 id="fun">Fun Facts about me</h2>
+                <ol id="facts">
                     <li>I have broken ten bones</li>
                     <li>I have skydived in California</li>
                     <li>My favoirte color is blue</li>
@@ -73,7 +73,7 @@
       <section>
           
       </section>
-          <h2>QUIZ!</h2>
+          <h2 id="quiz">QUIZ!</h2>
           <button id="take-this-quiz"> Take Quiz</button>
           <p id="text-content"></p>
       <section>
@@ -81,6 +81,8 @@
       </section>
     
     </main>
+    <footer>
+    </footer>
     <script type="module" src="src/app.js"></script>
   </body>
 </html>

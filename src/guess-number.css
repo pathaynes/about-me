@@ -1,6 +1,28 @@
-body {
-    background-color: aquamarine;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+main {
     font-size: 200%;
+    text-align: center;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 70pt;
+    text-align: center;
+    background-color: aquamarine;
+    padding: 100px;
+}
+
+
+#click {
+    width: 100px;
+    height: 60px;
+    margin: 40px;
+    font-family: sans-serif
+}
+
+#guess-number {
+    width: 40px;
+}
+
+nav {
     text-align: center;
 }
