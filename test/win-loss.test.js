@@ -2,91 +2,60 @@ import winLoss from '../src/win-loss.js';
 
 const test = QUnit.test;
 
-
-test('papervpaper', (assert) => {
-    // Arrange
+test('paper v paper', (assert) => {
     const userChoice = 'paper';
     const computerChoice = 'paper';
     const expected = 'draw';
-
-    // Act
     const result = winLoss(userChoice, computerChoice);
 
-
-    // Assert
     assert.equal(result, expected);
 });
 
 
-test('papervrock', (assert) => {
-    // Arrange
+test('paper v rock', (assert) => {
     const userChoice = 'paper';
     const computerChoice = 'rock';
     const expected = 'win';
-
-    // Act
     const result = winLoss(userChoice, computerChoice);
 
-
-    // Assert
     assert.equal(result, expected);
 });
 
 
-test('papervscissors', (assert) => {
-    // Arrange
+test('paper v scissors', (assert) => {
     const userChoice = 'paper';
     const computerChoice = 'scissors';
     const expected = 'loss';
-
-    // Act
     const result = winLoss(userChoice, computerChoice);
 
-
-    // Assert
     assert.equal(result, expected);
 });
 
 
-test('rockvsrock', (assert) => {
-    // Arrange
+test('rock v srock', (assert) => {
     const userChoice = 'rock';
     const computerChoice = 'rock';
     const expected = 'draw';
-
-    // Act
     const result = winLoss(userChoice, computerChoice);
 
-
-    // Assert
     assert.equal(result, expected);
 });
 
 
-test('rockvscissors', (assert) => {
-    // Arrange
+test('rock v scissors', (assert) => {
     const userChoice = 'rock';
     const computerChoice = 'scissors';
     const expected = 'win';
-
-    // Act
     const result = winLoss(userChoice, computerChoice);
 
-
-    // Assert
     assert.equal(result, expected);
 });
 
-test('scissorsvscissors', (assert) => {
-    // Arrange
+test('scissors v scissors', (assert) => {
     const userChoice = 'scissors';
     const computerChoice = 'scissors';
     const expected = 'draw';
-
-    // Act
     const result = winLoss(userChoice, computerChoice);
 
-
-    // Assert
     assert.equal(result, expected);
 });

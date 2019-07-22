@@ -10,6 +10,5 @@ test('random-number', (assert) => {
         expected = true;
     }
     
-    
     assert.equal(expected, true);
 });
